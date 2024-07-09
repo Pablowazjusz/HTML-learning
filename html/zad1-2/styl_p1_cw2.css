@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    text-align: center;
+ 
+
+}
+header {
+    border: 2px solid black;
+    height: 10%;
+}
+main {
+    border: 2px solid black;
+    height: 80%;
+    width: 80%;
+    float:left;
+    margin-top:1%;
+}
+article, nav {
+    border: 2px solid black;
+    margin:2%;
+}
+nav {
+    width: 15%;
+    float:right;
+    height: 75%;
+}
+article {
+    width: 45%;
+    float:left;
+    height: 90%;
+}
+footer {
+    clear:both;
+    border: 2px solid black;
+    height: 10%;
+}

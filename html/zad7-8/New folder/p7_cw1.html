@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .tile {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: #f9f9f9;
+      text-align: center; 
+    }
+    
+    .hello-world, .tile, .bottom-tile { 
+      background-color: #ccc;
+      padding: 1px;
+      margin-bottom: 10px;
+    }
+
+    h1, h2, p{
+        color: grey;
+    }
+    
+  </style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+    <div class="col-sm-12">
+        <div class="hello-world text-center"> 
+  <h1>Hello World</h1>
+    </div>
+</div>    
+</div>
+
+
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="tile">Link 1</div>
+      <div class="tile">Link 2</div>
+      <div class="tile">Link 3</div>
+      <div class="tile">Link 4</div>
+    </div>
+   
+    <div class="col-sm-8">
+      <h2>Lorem Ipsum</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+   
+    <div class="col-sm-2">
+      <div class="tile">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+ 
+</div>
+  <div class="row"> 
+    <div class="col-sm-12"> 
+      <div class="bottom-tile text-center">
+        <p>@ copyright w3schools.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

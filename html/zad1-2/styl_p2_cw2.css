@@ -1,0 +1,25 @@
+h3{
+    border: 2px solid gray;
+    text-align: center;
+    text-shadow: 2px 2px  black ;
+    color: rgb(75, 75, 75);
+    font-size: x-large;
+}
+
+input[type="text"], select {
+    background-color: #c8f5c8;
+
+}
+
+input[type="text"]{
+    border-color: red;
+}
+
+button{
+    background-color: green;
+    color: #c8f5c8;
+    border-radius: 10px;
+    height: 60px;
+    width: 90px;
+    border-color:aliceblue; 
+}

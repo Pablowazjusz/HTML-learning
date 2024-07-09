@@ -1,0 +1,10 @@
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+/* jak opisać class w css*/
+.link1 { /* dowolny znacznik z class link1*/
+    background-color: blueviolet;
+}
+/*selektor .nazwaclass a.link1 znaczniki a z class link1*/

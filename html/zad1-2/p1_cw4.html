@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+<body>
+    
+    <form action="/submit_form"> 
+        <table border="1">
+        <tr>
+            <th colspan="2" style="text-align: center;">DANE OSOBOWE</th>
+        </tr>
+        <tr>
+            <td>Imie:</td>
+            <td><input type="text" name="imie"></td>
+        </tr> 
+        
+        <tr>
+            <td>Nazwisko: </td>
+            <td><input type="text" name="nazwisko"></td>
+        </tr>
+        <tr>
+            <td> Data Urodzenia:</td>
+            <td><input type="date" name="data"></td>
+        </tr> 
+        </table>
+        <br>
+        <table border="1">
+            <tr>
+                <th colspan="2">POZOSTAŁE INFORMACJE</th>
+            </tr>
+            <tr>
+            <td>Wykształcenie:</td>
+            <td><input type="radio" name="podstawowe">Podstawowe
+            <input type="radio" name="średnie">Średnie
+            <input type="radio" name="wyższe">Wyższe</td>
+        </tr>
+        <tr>
+            <td>Zawód Wykonywany:</td>
+            <td><input type="text" name="zawod"></td>
+        </tr>    
+        <tr>
+            <td>Dodatkowe umiejętności:</td>
+            <td><textarea name="informacje" cols="30" rows="10"></textarea></td>
+        </tr>
+</table>
+<br><input type="submit" value="WYŚLIJ" >
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+header{
+    border: 3px solid blue;
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgb(161, 179, 196);
+text-align: right;
+}
+
+table{
+    background-color: rgb(70, 215, 215);
+    margin: 0 auto;
+    border-radius: 10px;
+width: 300px;
+}
+.left-column {
+    width: 50%;
+    background-color: rgb(22, 22, 113);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+}
+
+
+.right-column {
+    width: 50%;
+    background-color: rgb(39, 140, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    margin: 20px;
+}
+
+.white-rectangle {
+    width: 300px; /* Szerokość równa szerokości tabeli */
+    height: 40px; /* Dostosuj wysokość prostokąta */
+    background-color: white;
+    margin-top: 10px; /* Dostosuj odstęp między tabelą a prostokątem */
+    border-radius: 10px; /* Zaokrąglenie kątów */
+
+}
+button{
+    background-color: rgb(33, 117, 165);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+th{
+    color: rgb(188, 14, 14);
+}

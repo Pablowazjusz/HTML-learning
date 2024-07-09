@@ -1,0 +1,12 @@
+table{
+    height: 300px;
+    width: 600px;
+    background-color: #eeeeee;
+}
+img{
+    border: 3px solid #993399 ;
+}
+
+button{
+    float: right;
+}

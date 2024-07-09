@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl_p2_cw5.css">
+
+</head>
+<body>
+    <header>
+        <h2>Źródlana woda uśmiechu doda!!!</h2>
+    </header>
+ <main class="flex-container">
+    <article class="left-column">
+   <form action="/submit_form">
+   
+    <table>
+        <tr>
+            <th colspan="2">Oferta handlowa:</th>
+        </tr>
+        <tr>
+            <td>Woda Żywiec</td>
+            <td>1,50zł/1,5l</td>
+        </tr>
+        <tr>
+            <td>Woda Muszynianka</td>
+            <td>1,70zł/1,5l</td>
+        </tr>
+        <tr>
+            <td>Woda Cisowianka</td>
+            <td>1,55zł/1,5l</td>
+        </tr>
+        <tr>
+            <th colspan="2">Formularz zakupów:</th>
+        </tr>
+        <tr>
+            <td>Rodzaj wody</td>
+            <td><select name="woda" id="woda">
+                <option>Cisowianka</option>
+                <option>Muszynianka</option>
+                <option>Żywiec</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Liczba butelek:</td>
+            <td><input type="number" id="liczba"min="0" max="100" ></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit">Koszt zamówienia</button></td>
+        </tr>
+     </table>
+    </form>
+    <div class="white-rectangle"></div>
+
+</article>
+<article class="right-column">
+    <img src="gorskie_jezioro.jpg" alt="gorskie_jezioro" height="400" width="400">
+</article>
+</main>
+<footer>
+    "Jakie to lekkie w kropli deszczu."
+    <br>
+    <br><b>Wisława Szymborska</b>
+</footer>
+</body>
+</html>
